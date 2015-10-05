@@ -10,4 +10,5 @@ Lita.configure do |config|
 
   config.handlers.keepalive.minutes = 1
   config.handlers.keepalive.url = 'http://tardust-lita.herokuapp.com'
+  config.handlers.wolfram_alpha.app_id = ENV['TARDUST_LITA_WOLFRAM_ALPHA_APP_ID']
 end
