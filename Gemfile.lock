@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/chrislopresto/lita-keepalive.git
+  revision: f72fd095006ea20cea63d767828c63d370ef9f6a
+  branch: minutes-fix
+  specs:
+    lita-keepalive (0.0.2)
+      lita (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -52,6 +60,7 @@ PLATFORMS
 
 DEPENDENCIES
   lita
+  lita-keepalive!
   lita-pugbomb
   lita-slack
 
